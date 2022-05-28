@@ -1,0 +1,260 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1E1F68;
+}
+
+li{
+    list-style: none;
+    font-family: cursive;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#1E1F68;
+}
+
+.logo{
+    font-size: 32px;
+}
+
+.menu{
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li:hover {
+    background-color:#0285C9;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+menu li{
+    padding:5px 14px;
+}
+
+.services{
+    position: relative;
+}
+
+
+.referral{
+    position: relative;
+}
+
+.blog{
+    position: relative;
+}
+
+.community{
+    position: relative;
+}
+
+.dropdown{
+    background-color:#1E1F68    ;
+    padding: 1em 0;
+    position: absolute;
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+}
+ 
+.dropdown li+li {
+    margin-top: 10px;
+}
+
+.dropdown li{
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+}
+
+
+.dropdown li:hover {
+    background-color: rgb(19, 12, 12);
+    
+}
+
+.services:hover .dropdown{
+    display: block;
+}
+
+.referral:hover .dropdown{
+    display: block;
+}
+.community:hover .dropdown{
+    display: block;
+}
+
+.blog:hover .dropdown{
+    display: block;
+}
+
+
+.banner{
+    background-image: url(../img/blockchain.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    font-family: cursive;
+    border-radius: 20px;
+}
+
+p{
+    text-align: center;
+    color: white;
+    padding: 10%;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: cursive;
+    border: 5px solid #1E1F68;
+    
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+    padding-right: 40%;
+}
+
+.banner-1k{
+    display: flex;
+    flex-wrap: wrap;
+    background-size: 100%;
+    background-size: cover;
+    background-image: url(../img/photo-1639322537228-f710d846310a.avif);
+    background-repeat: no-repeat;
+    background-position: center ;
+    font-family: cursive;
+    border: 5px solid #dcddf0;
+    border-radius: 20px;
+    
+}
+
+h3{
+    text-align: center;
+    color: white;
+    padding: 10% 10% 0 10%;
+    cursor: pointer;
+    font-family: cursive;
+    margin-bottom: 20px;
+    
+    
+}
+
+button{
+    width: 100px;
+    margin-left: 850px;
+}
+
+button a{
+    
+    font-size: 500%;
+    border-radius: 30px;
+    background-color: #1E1F68;
+    font-family: cursive;
+}
+
+.banner-7k{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url(../img/iu.jpg);
+    background-image: none;
+    background-repeat: no-repeat;
+    border: solid black;
+    background-size: cover;
+    border-radius: 20px;
+    
+}
+
+.banner-70{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url(../img/iu.jpg);
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    border: solid black;
+}
+
+.banner-80{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url(../img/iu.jpg);
+    background-image: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    border-radius: 20px;
+    border: solid black;
+}
+
+.banner-90{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    background-image: url(../img/iu.jpg);
+    background-image: none;
+    background-size: cover;
+    align-content: center;
+    border-radius: 20px;
+    border: solid black;
+}
+
+.banner-7k h1{
+    display: flex;
+    padding: 1px;
+    color:white;
+    background-color: hsl(239, 55%, 26%);
+    border-radius: 20px;
+    border: solid orangered;
+    font-family: cursive;
+    
+}
+
+.banner-70 h1{
+    display: flex;
+    padding: 1px;
+    color:white;
+    background-color: #1E1F68;
+    border-radius: 20px;
+    border: solid green;
+    font-family: cursive;
+}
+
+.banner-80 h1{
+    display: flex;
+    padding: 1px;
+    color:white;
+    background-color: #1E1F68;
+    border-radius: 20px;
+    border: solid white;
+    font-family: cursive;
+}
+
+.banner-90 h1{
+    display: flex;
+    padding: 1px;
+    color:white;
+    background-color: #1E1F68;
+    border-radius: 20px;
+    border: solid blue;
+    font-family: cursive;
+}
